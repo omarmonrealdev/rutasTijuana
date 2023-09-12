@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 10px;
+}
+
+h1, select  {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+select {
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+}
+
+.contenedor {
+  display: flex;
+}
+
+#lugares {
+  width: 30%;
+}
+
+ol {
+  margin-left: 15px;
+}
+
+#mapa {
+  width: 70%;
+}
+
+#mapa img {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px){
+  .contenedor {
+    flex-direction: column;
+  }
+  
+  #lugares {
+    width: 100%;
+  }
+  
+  #mapa {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
