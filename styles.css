@@ -42,8 +42,9 @@ ol {
 }
 
 #mapa img {
-  width: 100%;
+  width: 90%;
 }
+
 
 @media screen and (max-width: 900px){
   .contenedor {
@@ -57,5 +58,9 @@ ol {
   #mapa {
     width: 100%;
     margin-top: 20px;
+  }
+
+  #mapa img {
+    width: 100%;
   }
 }
